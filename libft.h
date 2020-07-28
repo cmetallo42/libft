@@ -6,7 +6,7 @@
 /*   By: student <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/27 20:57:18 by student           #+#    #+#             */
-/*   Updated: 2020/05/31 21:34:20 by student          ###   ########.fr       */
+/*   Updated: 2020/07/28 20:40:29 by cmetallo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,5 +50,7 @@ void			ft_putnbr_fd(int n, int fd);
 void			ft_putstr_fd(char *s, int fd);
 char			**ft_split(char const *s, char c);
 char			*ft_strtrim(char const *s1, char const *set);
+char			*ft_strcpy(char *dst, const char *src);
+void			ft_strclr(char *s);
 
 #endif
